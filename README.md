@@ -17,7 +17,7 @@ docker compose logs -f backend frontend postgres
 - Backend health
 
 ```
-curl http://localhost:4000/health
+curl http://localhost:4000
 ```
 
 - Frontend
