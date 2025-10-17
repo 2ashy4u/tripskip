@@ -8,6 +8,9 @@ export default function Home() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-indigo-600">TripSkip</div>
           <div className="flex gap-4">
+            <a href="/pricing" className="px-4 py-2 text-gray-700 hover:text-indigo-700 font-medium hidden sm:inline">
+              Pricing
+            </a>
             <a href="/signin" className="px-4 py-2 text-indigo-600 hover:text-indigo-700 font-medium">
               Sign In
             </a>
