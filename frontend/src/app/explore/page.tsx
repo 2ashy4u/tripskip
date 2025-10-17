@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 
 export default function ExplorePage() {
   const mapRef = useRef<HTMLDivElement>(null)
@@ -60,8 +61,8 @@ export default function ExplorePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-indigo-600">TripSkip</div>
           <div className="flex gap-4">
-            <a href="/" className="text-gray-700 hover:text-indigo-600 font-medium">Home</a>
-            <a href="/signin" className="text-gray-700 hover:text-indigo-600 font-medium">Sign In</a>
+            <Link href="/" className="text-gray-700 hover:text-indigo-600 font-medium">Home</Link>
+            <Link href="/signin" className="text-gray-700 hover:text-indigo-600 font-medium">Sign In</Link>
           </div>
         </div>
       </header>
