@@ -24,3 +24,5 @@ curl http://localhost:4000
   http://localhost:3000
 
 DB (from host): localhost:5433, user/password 'user'/'password', db 'appdb'.
+
+Running application
